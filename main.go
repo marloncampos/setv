@@ -1,15 +1,14 @@
-@@ -2,8 +2,11 @@ package main
+package main
 
 import (
     "fmt"
 	"github.com/CiscoZeus/go-zeusclient"
-	"io"
-    "net/http"
+	"net/http"
 	"os"
 	"runtime"
 )
 
-@@ -13,8 +16,33 @@ func handler(w http.ResponseWriter, r *http.Request) {
+func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
